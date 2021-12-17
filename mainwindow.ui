@@ -17,7 +17,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color: black;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -30,7 +30,7 @@ color: white;</string>
       <x>0</x>
       <y>0</y>
       <width>801</width>
-      <height>571</height>
+      <height>581</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -41,6 +41,7 @@ color: white;</string>
 	border: 1px solid white;
 	width: 150px;
 	font-size: 18px;
+	font-family: &quot;Microsoft Yahei&quot;;
 }
 
 QTabBar{
@@ -97,6 +98,7 @@ QTabWidget::pane{
 	background-color: black;
 	border: 1px solid white;
 	font-size: 18px;
+	font-family: &quot;Microsoft Yahei&quot;;
 }</string>
     </property>
     <property name="text">
@@ -104,17 +106,6 @@ QTabWidget::pane{
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>26</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
