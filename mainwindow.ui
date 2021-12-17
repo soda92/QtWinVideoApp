@@ -40,8 +40,8 @@ color: white;</string>
 	height: 50px;
 	border: 1px solid white;
 	width: 150px;
-	font-size: 18px;
-	font-family: &quot;Microsoft Yahei&quot;;
+	font-size: 22px;
+	font-family: Noto Sans CJK SC;
 }
 
 QTabBar{
@@ -97,8 +97,8 @@ QTabWidget::pane{
 	color: white;
 	background-color: black;
 	border: 1px solid white;
-	font-size: 18px;
-	font-family: &quot;Microsoft Yahei&quot;;
+	font-size: 22px;
+	font-family: Noto Sans CJK SC;
 }</string>
     </property>
     <property name="text">
