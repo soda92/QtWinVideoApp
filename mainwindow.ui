@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: black;
+color: white;</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar::tab  {
+    background: black;
+	color: white;
+	height: 50px;
+	border: 1px solid white;
+	width: 150px;
+	font-size: 18px;
+}
+
+QTabBar{
+	width: 100%;
+	border-bottom: solid 1px white;
+}
+
+QTabBar::tab::selected  {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:1 #000, stop:0  #3cb43a);
+	color: white;
+	border-bottom: black;
+}
+
+QTabWidget::pane{
+ border: 1px solid black;
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="tab_video">
+     <attribute name="title">
+      <string>视频预览</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_sensor">
+     <attribute name="title">
+      <string>设备管理</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_info">
+     <attribute name="title">
+      <string>火警信息</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_setting">
+     <attribute name="title">
+      <string>事件记录</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>692</x>
+      <y>5</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+	font-size: 18px;
+}</string>
+    </property>
+    <property name="text">
+     <string>停止报警</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
