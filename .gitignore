@@ -79,3 +79,5 @@ Thumbs.db
 /out
 
 *.user
+.qt_for_python
+*.ts
